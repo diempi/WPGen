@@ -5,7 +5,7 @@
             <?php get_terms( $taxonomies, $args ) ?>
         </div>
     </section>
-            <section id="content" role="main" itemscope itemtype="http://schema.org/Blog">
+            <section id="content" role="main" itemscope itemtype="http://schema.org/Article">
                 <?php if(have_posts()): ?>
                     <?php while(have_posts()): the_post(); ?>
                             <h1 itemprop="name"><?php the_title(); ?></h1>

@@ -151,6 +151,12 @@ nav{
       display: block;
       width: 100%;
       padding: 1em 0.5em;
+      transition: color 1s;
+      -webkit-transition: color 1s;
+      -moz-transition: color 1s;
+      &:hover{
+        color: red;
+      }
     }
   }
 }
@@ -162,7 +168,7 @@ header{
 
 #content{
   box-shadow: 1px 1px 10px #888888;
-  padding: 1em;
+  padding: 0.5em;
   margin: 0;
   ul{
       @include column(12);
@@ -170,12 +176,6 @@ header{
       text-align: left;
       padding-left: 0;
       margin-bottom: 2em;
-      li{
-        margin-bottom: 1.5em;
-        margin-left: 0;
-        margin-top: 1em;
-        margin-right: 1em;
-      }
   }
   h1{
     clear: both;
@@ -185,17 +185,25 @@ header{
     font-size: 1.4em;
   }
 }
-.recent-works, .logo{
+.logo{
     @include column(3);
     float: left;
 }
+
 li{
   list-style-type: none;
 }
+.galerie{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .recent-works{
-  margin-right: 1em;
-  h2{
-    margin-top: 0.3em;
+  @include column(4);
+  float: left;
+  margin: 1em 0.8em 2em;
+  h3{
+    margin: 0.3em 0 0em 0;
   }
   img{
     border: 1px solid #ddd;
@@ -203,6 +211,10 @@ li{
     &:hover{
       background-color: #eee;
     }
+  }
+  p{
+    margin: 0;
+    font-size: 90%;
   }
 }
 
@@ -313,13 +325,15 @@ a{
 }
 
 .title{
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #showcase{
   h1{
     width: 28%;
     float: left;
     margin: 1em 0 1em 0.5em;
+    text-transform: uppercase;
+    color: #000;
   }
 }
 
@@ -335,7 +349,14 @@ a{
     text-transform: uppercase;
     a{
       display: block;
-      padding: 0.5em;
+      padding: 1em;
+      font-size: 1.2em;
+      transition: color 1s;
+      -webkit-transition: color 1s;
+      -moz-transition: color 1s;
+      &:hover{
+        color: red;
+      }
     }
   }
 }
@@ -343,6 +364,19 @@ a{
       background-color: red;
       color: #fff;
 }
+footer{
+  box-shadow: 1px 1px 10px #888888;
+  margin: 2em 0 0 0.8em;
+  padding: 0.5em 0.1em;
+  p{
+    padding: 1em;
+    margin: 0;
+  }
+}
+
+/*=========== EFECT MENU CSS3 ============================*/
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

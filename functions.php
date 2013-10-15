@@ -4,7 +4,7 @@ add_action( 'after_setup_theme', 'generic_widget_setup' );
 add_action( 'init', 'create_post_type' );
 add_action('init','add_taxonomies');
 add_action('init','add_year');
-
+add_theme_support( 'post-thumbnails' ); 
 function generic_widget_init(){
 
 	register_sidebar( array(
