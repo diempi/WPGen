@@ -1,4 +1,4 @@
-# Portfolio de Didier GABIAM
+# Portfolio Générique crée par Didier GABIAM
 
 Portfolio 2013 
 
