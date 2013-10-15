@@ -1,4 +1,10 @@
 <?php get_header(); ?>
+    <section id="showcase">
+        <h2 class="title"></h2>
+        <div id="branding">
+            <?php get_terms( $taxonomies, $args ) ?>
+        </div>
+    </section>
             <section id="content" role="main" itemscope itemtype="http://schema.org/Blog">
                 <?php if(have_posts()): ?>
                     <?php while(have_posts()): the_post(); ?>

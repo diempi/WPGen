@@ -4,7 +4,24 @@
 */ 
 ?>
 <?php get_header( ); ?>
-        <div id="main" role="main">
+    <section id="showcase">
+        <h1 class="title"><?php the_title(); ?></h1>
+        <div id="branding">
+            <?php 
+                $techs = get_terms( 'techniques');
+            ;?>
+            <ul class="techniques">
+            <?php
+                    foreach ($techs as $tech) {
+            ;?>
+                <li>
+                        <a href="<?php echo get_term_link($tech); ?>" title="<?php echo ($tech->name); ?>"><?php echo ($tech->name); ?></a>
+                </li>
+             <?php       
+                }      
+            ; ?>
+        </div>
+    </section>
             <section id="content">
                 <h1>Mes projets récents</h1>
                 <ul class="galerie">

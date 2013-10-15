@@ -657,24 +657,26 @@ a {
 
 /* line 140, ../scss/main.scss */
 nav {
-  padding-left: 0; }
-  /* line 142, ../scss/main.scss */
+  padding-left: 0;
+  float: right;
+  text-align: right; }
+  /* line 144, ../scss/main.scss */
   nav li {
     float: left;
     margin-right: 0.5em;
     text-transform: uppercase; }
-    /* line 147, ../scss/main.scss */
+    /* line 149, ../scss/main.scss */
     nav li a {
       display: block;
       width: 100%;
       padding: 1em 0.5em; }
 
-/* line 155, ../scss/main.scss */
+/* line 157, ../scss/main.scss */
 header {
   box-shadow: 1px 1px 4px #888888;
   height: 100px; }
 
-/* line 161, ../scss/main.scss */
+/* line 163, ../scss/main.scss */
 #content ul {
   display: inline;
   float: left;
@@ -684,21 +686,21 @@ header {
   text-align: left;
   padding-left: 0;
   margin-bottom: 2em; }
-  /* line 167, ../scss/main.scss */
+  /* line 169, ../scss/main.scss */
   #content ul li {
     margin-bottom: 1.5em;
     margin-left: 0;
     margin-top: 1em;
     margin-right: 1em; }
-/* line 174, ../scss/main.scss */
+/* line 176, ../scss/main.scss */
 #content h1 {
   clear: both;
   padding-top: 0.2em; }
-/* line 178, ../scss/main.scss */
+/* line 180, ../scss/main.scss */
 #content h2 {
   font-size: 1.4em; }
 
-/* line 182, ../scss/main.scss */
+/* line 184, ../scss/main.scss */
 .recent-works, .logo {
   display: inline;
   float: left;
@@ -706,25 +708,25 @@ header {
   margin: 0 1.04167%;
   float: left; }
 
-/* line 186, ../scss/main.scss */
+/* line 188, ../scss/main.scss */
 li {
   list-style-type: none; }
 
-/* line 189, ../scss/main.scss */
+/* line 191, ../scss/main.scss */
 .recent-works {
   margin-right: 1em; }
-  /* line 191, ../scss/main.scss */
+  /* line 193, ../scss/main.scss */
   .recent-works h2 {
     margin-top: 0.3em; }
-  /* line 194, ../scss/main.scss */
+  /* line 196, ../scss/main.scss */
   .recent-works img {
     border: 1px solid #ddd;
     padding: 0.3em; }
-    /* line 197, ../scss/main.scss */
+    /* line 199, ../scss/main.scss */
     .recent-works img:hover {
       background-color: #eee; }
 
-/* line 203, ../scss/main.scss */
+/* line 205, ../scss/main.scss */
 #me {
   font-size: 140%;
   line-height: 1.5;
@@ -734,7 +736,7 @@ li {
   width: 64.58333%;
   margin: 0 1.04167%; }
 
-/* line 209, ../scss/main.scss */
+/* line 211, ../scss/main.scss */
 figure {
   display: inline;
   float: left;
@@ -742,16 +744,16 @@ figure {
   margin: 0 1.04167%;
   float: left; }
 
-/* line 213, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 figure img {
   box-shadow: 2px 2px 6px #888888;
   padding: 0.3em; }
 
-/* line 218, ../scss/main.scss */
+/* line 220, ../scss/main.scss */
 figcaption {
   margin: 0.5em 0; }
 
-/* line 222, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 #contactform {
   display: inline;
   float: left;
@@ -760,7 +762,7 @@ figcaption {
   float: left;
   margin-left: 0; }
 
-/* line 228, ../scss/main.scss */
+/* line 230, ../scss/main.scss */
 .social, .moreinfos {
   display: inline;
   float: left;
@@ -768,11 +770,11 @@ figcaption {
   margin: 0 1.04167%;
   float: right; }
 
-/* line 234, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 .moreinfos li {
   margin: 0.5em 0 !important; }
 
-/* line 238, ../scss/main.scss */
+/* line 240, ../scss/main.scss */
 .social a {
   display: block;
   width: 2.8em;
@@ -783,59 +785,59 @@ figcaption {
   background-image: url("../img/sprite.png");
   background-position: 0 0; }
 
-/* line 248, ../scss/main.scss */
+/* line 250, ../scss/main.scss */
 #twitterdev:hover {
   background-position: 0 100%; }
 
-/* line 249, ../scss/main.scss */
+/* line 251, ../scss/main.scss */
 #twitterdez:hover {
   background-position: 0 100%; }
 
-/* line 250, ../scss/main.scss */
+/* line 252, ../scss/main.scss */
 #gplus {
   background-position: 57.2% 0; }
 
-/* line 251, ../scss/main.scss */
+/* line 253, ../scss/main.scss */
 #gplus:hover {
   background-position: 57.2% 100%; }
 
-/* line 252, ../scss/main.scss */
+/* line 254, ../scss/main.scss */
 #lknd {
   background-position: 71.5% 0; }
 
-/* line 253, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 #lknd:hover {
   background-position: 71.5% 100%; }
 
-/* line 255, ../scss/main.scss */
+/* line 257, ../scss/main.scss */
 #main-footer {
   clear: both; }
 
-/* line 259, ../scss/main.scss */
+/* line 261, ../scss/main.scss */
 .preview img {
   box-shadow: 1px 1px 10px #888888;
   padding: 0.3em; }
 
-/* line 266, ../scss/main.scss */
+/* line 268, ../scss/main.scss */
 form fieldset {
   box-shadow: 3px 3px 8px #888888; }
-/* line 269, ../scss/main.scss */
+/* line 271, ../scss/main.scss */
 form div {
   margin: 1em 0; }
-/* line 272, ../scss/main.scss */
+/* line 274, ../scss/main.scss */
 form label {
   display: block;
   width: 22%;
   float: left;
   text-transform: uppercase; }
-/* line 278, ../scss/main.scss */
+/* line 280, ../scss/main.scss */
 form input, form textarea {
   width: 76%; }
 
-/* line 283, ../scss/main.scss */
+/* line 285, ../scss/main.scss */
 #send {
   text-align: right; }
-  /* line 285, ../scss/main.scss */
+  /* line 287, ../scss/main.scss */
   #send input {
     width: auto;
     padding: 0.5em;
@@ -843,22 +845,38 @@ form input, form textarea {
     color: #fff;
     margin-right: 0.5em; }
 
-/* line 295, ../scss/main.scss */
+/* line 297, ../scss/main.scss */
 a:visited {
   color: #367fa8; }
 
-/* line 300, ../scss/main.scss */
+/* line 302, ../scss/main.scss */
 .visit {
   padding: 0.5em;
   background-color: #367fa8;
   color: #fff; }
-  /* line 304, ../scss/main.scss */
+  /* line 306, ../scss/main.scss */
   .visit:visited {
     color: #fff; }
 
-/* line 309, ../scss/main.scss */
+/* line 311, ../scss/main.scss */
 .title {
   font-size: 1.5em; }
+
+/* line 315, ../scss/main.scss */
+#showcase h1 {
+  width: 28%;
+  float: left; }
+
+/* line 321, ../scss/main.scss */
+#branding {
+  width: 70%;
+  float: right;
+  margin: 0.5em 0;
+  text-align: right; }
+  /* line 326, ../scss/main.scss */
+  #branding li {
+    display: inline-block;
+    margin-left: 1em; }
 
 /* ==========================================================================
    Helper classes
@@ -866,7 +884,7 @@ a:visited {
 /*
  * Image replacement
  */
-/* line 321, ../scss/main.scss */
+/* line 339, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -874,7 +892,7 @@ a:visited {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 329, ../scss/main.scss */
+/* line 347, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -884,7 +902,7 @@ a:visited {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 340, ../scss/main.scss */
+/* line 358, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -892,7 +910,7 @@ a:visited {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 349, ../scss/main.scss */
+/* line 367, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -907,7 +925,7 @@ a:visited {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 366, ../scss/main.scss */
+/* line 384, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -920,7 +938,7 @@ a:visited {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 379, ../scss/main.scss */
+/* line 397, ../scss/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -935,7 +953,7 @@ a:visited {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 396, ../scss/main.scss */
+/* line 414, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -943,7 +961,7 @@ a:visited {
   display: table;
   /* 2 */ }
 
-/* line 401, ../scss/main.scss */
+/* line 419, ../scss/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -951,7 +969,7 @@ a:visited {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 410, ../scss/main.scss */
+/* line 428, ../scss/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -969,7 +987,7 @@ a:visited {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 437, ../scss/main.scss */
+  /* line 455, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -977,59 +995,59 @@ a:visited {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 445, ../scss/main.scss */
+  /* line 463, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 449, ../scss/main.scss */
+  /* line 467, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 453, ../scss/main.scss */
+  /* line 471, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 463, ../scss/main.scss */
+  /* line 481, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 468, ../scss/main.scss */
+  /* line 486, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 473, ../scss/main.scss */
+  /* line 491, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 478, ../scss/main.scss */
+  /* line 496, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 482, ../scss/main.scss */
+  /* line 500, ../scss/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 492, ../scss/main.scss */
+  /* line 510, ../scss/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 498, ../scss/main.scss */
+  /* line 516, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }

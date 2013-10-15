@@ -23,10 +23,9 @@
                         <h2 class="job"><?php bloginfo( 'description' ); ?></h2>
                     </a>
                 </div>
-                <nav>
                     <?php 
                     wp_nav_menu( array('theme_location'  => 'primary',
-                        'menu'  => 'Primary Menu')); // ou wp_nav_menu( array('theme_location'  => 'primary')
+                        'menu'  => 'Primary Menu','container' => 'nav','items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',)); // ou wp_nav_menu( array('theme_location'  => 'primary')
                     ?>
-                </nav>
+
             </header><!-- END HEADER -->

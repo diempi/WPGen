@@ -139,6 +139,8 @@ a{
 }
 nav{
   padding-left: 0;
+  float: right;
+  text-align: right;
   li{
     float:left;
     margin-right: 0.5em;
@@ -309,7 +311,23 @@ a{
 .title{
   font-size: 1.5em;
 }
+#showcase{
+  h1{
+    width: 28%;
+    float: left;
+  }
+}
 
+#branding{
+  width: 70%;
+  float: right;
+  margin: 0.5em 0;
+  text-align: right;
+  li{
+    display: inline-block;
+    margin-left: 1em;
+  }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
