@@ -132,8 +132,9 @@ a{
     margin-bottom: 0;
   }
   h2{
-    margin: 0;
+    margin: -0.5em 0 0 0;
     font-size: 100%;
+    font-weight: normal;
   }
 
 }
@@ -160,6 +161,9 @@ header{
 }
 
 #content{
+  box-shadow: 1px 1px 10px #888888;
+  padding: 1em;
+  margin: 0;
   ul{
       @include column(12);
       margin-left: 0;
@@ -315,6 +319,7 @@ a{
   h1{
     width: 28%;
     float: left;
+    margin: 1em 0 1em 0.5em;
   }
 }
 
@@ -326,7 +331,17 @@ a{
   li{
     display: inline-block;
     margin-left: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    a{
+      display: block;
+      padding: 0.5em;
+    }
   }
+}
+.active{
+      background-color: red;
+      color: #fff;
 }
 /* ==========================================================================
    Helper classes

@@ -652,55 +652,61 @@ a {
   margin-bottom: 0; }
 /* line 134, ../scss/main.scss */
 #logo h2 {
-  margin: 0;
-  font-size: 100%; }
+  margin: -0.5em 0 0 0;
+  font-size: 100%;
+  font-weight: normal; }
 
-/* line 140, ../scss/main.scss */
+/* line 141, ../scss/main.scss */
 nav {
   padding-left: 0;
   float: right;
   text-align: right; }
-  /* line 144, ../scss/main.scss */
+  /* line 145, ../scss/main.scss */
   nav li {
     float: left;
     margin-right: 0.5em;
     text-transform: uppercase; }
-    /* line 149, ../scss/main.scss */
+    /* line 150, ../scss/main.scss */
     nav li a {
       display: block;
       width: 100%;
       padding: 1em 0.5em; }
 
-/* line 157, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 header {
   box-shadow: 1px 1px 4px #888888;
   height: 100px; }
 
 /* line 163, ../scss/main.scss */
-#content ul {
-  display: inline;
-  float: left;
-  width: 97.91667%;
-  margin: 0 1.04167%;
-  margin-left: 0;
-  text-align: left;
-  padding-left: 0;
-  margin-bottom: 2em; }
-  /* line 169, ../scss/main.scss */
-  #content ul li {
-    margin-bottom: 1.5em;
+#content {
+  box-shadow: 1px 1px 10px #888888;
+  padding: 1em;
+  margin: 0; }
+  /* line 167, ../scss/main.scss */
+  #content ul {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
     margin-left: 0;
-    margin-top: 1em;
-    margin-right: 1em; }
-/* line 176, ../scss/main.scss */
-#content h1 {
-  clear: both;
-  padding-top: 0.2em; }
-/* line 180, ../scss/main.scss */
-#content h2 {
-  font-size: 1.4em; }
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 2em; }
+    /* line 173, ../scss/main.scss */
+    #content ul li {
+      margin-bottom: 1.5em;
+      margin-left: 0;
+      margin-top: 1em;
+      margin-right: 1em; }
+  /* line 180, ../scss/main.scss */
+  #content h1 {
+    clear: both;
+    padding-top: 0.2em; }
+  /* line 184, ../scss/main.scss */
+  #content h2 {
+    font-size: 1.4em; }
 
-/* line 184, ../scss/main.scss */
+/* line 188, ../scss/main.scss */
 .recent-works, .logo {
   display: inline;
   float: left;
@@ -708,25 +714,25 @@ header {
   margin: 0 1.04167%;
   float: left; }
 
-/* line 188, ../scss/main.scss */
+/* line 192, ../scss/main.scss */
 li {
   list-style-type: none; }
 
-/* line 191, ../scss/main.scss */
+/* line 195, ../scss/main.scss */
 .recent-works {
   margin-right: 1em; }
-  /* line 193, ../scss/main.scss */
+  /* line 197, ../scss/main.scss */
   .recent-works h2 {
     margin-top: 0.3em; }
-  /* line 196, ../scss/main.scss */
+  /* line 200, ../scss/main.scss */
   .recent-works img {
     border: 1px solid #ddd;
     padding: 0.3em; }
-    /* line 199, ../scss/main.scss */
+    /* line 203, ../scss/main.scss */
     .recent-works img:hover {
       background-color: #eee; }
 
-/* line 205, ../scss/main.scss */
+/* line 209, ../scss/main.scss */
 #me {
   font-size: 140%;
   line-height: 1.5;
@@ -736,7 +742,7 @@ li {
   width: 64.58333%;
   margin: 0 1.04167%; }
 
-/* line 211, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 figure {
   display: inline;
   float: left;
@@ -744,16 +750,16 @@ figure {
   margin: 0 1.04167%;
   float: left; }
 
-/* line 215, ../scss/main.scss */
+/* line 219, ../scss/main.scss */
 figure img {
   box-shadow: 2px 2px 6px #888888;
   padding: 0.3em; }
 
-/* line 220, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 figcaption {
   margin: 0.5em 0; }
 
-/* line 224, ../scss/main.scss */
+/* line 228, ../scss/main.scss */
 #contactform {
   display: inline;
   float: left;
@@ -762,7 +768,7 @@ figcaption {
   float: left;
   margin-left: 0; }
 
-/* line 230, ../scss/main.scss */
+/* line 234, ../scss/main.scss */
 .social, .moreinfos {
   display: inline;
   float: left;
@@ -770,11 +776,11 @@ figcaption {
   margin: 0 1.04167%;
   float: right; }
 
-/* line 236, ../scss/main.scss */
+/* line 240, ../scss/main.scss */
 .moreinfos li {
   margin: 0.5em 0 !important; }
 
-/* line 240, ../scss/main.scss */
+/* line 244, ../scss/main.scss */
 .social a {
   display: block;
   width: 2.8em;
@@ -785,59 +791,59 @@ figcaption {
   background-image: url("../img/sprite.png");
   background-position: 0 0; }
 
-/* line 250, ../scss/main.scss */
+/* line 254, ../scss/main.scss */
 #twitterdev:hover {
   background-position: 0 100%; }
 
-/* line 251, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 #twitterdez:hover {
   background-position: 0 100%; }
 
-/* line 252, ../scss/main.scss */
+/* line 256, ../scss/main.scss */
 #gplus {
   background-position: 57.2% 0; }
 
-/* line 253, ../scss/main.scss */
+/* line 257, ../scss/main.scss */
 #gplus:hover {
   background-position: 57.2% 100%; }
 
-/* line 254, ../scss/main.scss */
+/* line 258, ../scss/main.scss */
 #lknd {
   background-position: 71.5% 0; }
 
-/* line 255, ../scss/main.scss */
+/* line 259, ../scss/main.scss */
 #lknd:hover {
   background-position: 71.5% 100%; }
 
-/* line 257, ../scss/main.scss */
+/* line 261, ../scss/main.scss */
 #main-footer {
   clear: both; }
 
-/* line 261, ../scss/main.scss */
+/* line 265, ../scss/main.scss */
 .preview img {
   box-shadow: 1px 1px 10px #888888;
   padding: 0.3em; }
 
-/* line 268, ../scss/main.scss */
+/* line 272, ../scss/main.scss */
 form fieldset {
   box-shadow: 3px 3px 8px #888888; }
-/* line 271, ../scss/main.scss */
+/* line 275, ../scss/main.scss */
 form div {
   margin: 1em 0; }
-/* line 274, ../scss/main.scss */
+/* line 278, ../scss/main.scss */
 form label {
   display: block;
   width: 22%;
   float: left;
   text-transform: uppercase; }
-/* line 280, ../scss/main.scss */
+/* line 284, ../scss/main.scss */
 form input, form textarea {
   width: 76%; }
 
-/* line 285, ../scss/main.scss */
+/* line 289, ../scss/main.scss */
 #send {
   text-align: right; }
-  /* line 287, ../scss/main.scss */
+  /* line 291, ../scss/main.scss */
   #send input {
     width: auto;
     padding: 0.5em;
@@ -845,38 +851,50 @@ form input, form textarea {
     color: #fff;
     margin-right: 0.5em; }
 
-/* line 297, ../scss/main.scss */
+/* line 301, ../scss/main.scss */
 a:visited {
   color: #367fa8; }
 
-/* line 302, ../scss/main.scss */
+/* line 306, ../scss/main.scss */
 .visit {
   padding: 0.5em;
   background-color: #367fa8;
   color: #fff; }
-  /* line 306, ../scss/main.scss */
+  /* line 310, ../scss/main.scss */
   .visit:visited {
     color: #fff; }
 
-/* line 311, ../scss/main.scss */
+/* line 315, ../scss/main.scss */
 .title {
   font-size: 1.5em; }
 
-/* line 315, ../scss/main.scss */
+/* line 319, ../scss/main.scss */
 #showcase h1 {
   width: 28%;
-  float: left; }
+  float: left;
+  margin: 1em 0 1em 0.5em; }
 
-/* line 321, ../scss/main.scss */
+/* line 326, ../scss/main.scss */
 #branding {
   width: 70%;
   float: right;
   margin: 0.5em 0;
   text-align: right; }
-  /* line 326, ../scss/main.scss */
+  /* line 331, ../scss/main.scss */
   #branding li {
     display: inline-block;
-    margin-left: 1em; }
+    margin-left: 1em;
+    text-align: center;
+    text-transform: uppercase; }
+    /* line 336, ../scss/main.scss */
+    #branding li a {
+      display: block;
+      padding: 0.5em; }
+
+/* line 342, ../scss/main.scss */
+.active {
+  background-color: red;
+  color: #fff; }
 
 /* ==========================================================================
    Helper classes
@@ -884,7 +902,7 @@ a:visited {
 /*
  * Image replacement
  */
-/* line 339, ../scss/main.scss */
+/* line 354, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -892,7 +910,7 @@ a:visited {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 347, ../scss/main.scss */
+/* line 362, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -902,7 +920,7 @@ a:visited {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 358, ../scss/main.scss */
+/* line 373, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -910,7 +928,7 @@ a:visited {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 367, ../scss/main.scss */
+/* line 382, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -925,7 +943,7 @@ a:visited {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 384, ../scss/main.scss */
+/* line 399, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -938,7 +956,7 @@ a:visited {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 397, ../scss/main.scss */
+/* line 412, ../scss/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -953,7 +971,7 @@ a:visited {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 414, ../scss/main.scss */
+/* line 429, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -961,7 +979,7 @@ a:visited {
   display: table;
   /* 2 */ }
 
-/* line 419, ../scss/main.scss */
+/* line 434, ../scss/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -969,7 +987,7 @@ a:visited {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 428, ../scss/main.scss */
+/* line 443, ../scss/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -987,7 +1005,7 @@ a:visited {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 455, ../scss/main.scss */
+  /* line 470, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -995,59 +1013,59 @@ a:visited {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 463, ../scss/main.scss */
+  /* line 478, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 467, ../scss/main.scss */
+  /* line 482, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 471, ../scss/main.scss */
+  /* line 486, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 481, ../scss/main.scss */
+  /* line 496, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 486, ../scss/main.scss */
+  /* line 501, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 491, ../scss/main.scss */
+  /* line 506, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 496, ../scss/main.scss */
+  /* line 511, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 500, ../scss/main.scss */
+  /* line 515, ../scss/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 510, ../scss/main.scss */
+  /* line 525, ../scss/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 516, ../scss/main.scss */
+  /* line 531, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }
