@@ -12,8 +12,7 @@
                     <?php while(have_posts()): the_post(); ?>
                             
                             <section id="contactform">
-                                <h2>Aperçu du projet</h2>
-                                <div class="preview" itemprop="image">
+                                    <div class="preview" itemprop="image">
                                     <?php the_content(); ?>
                                 </div>
                             </section>

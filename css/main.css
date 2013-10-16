@@ -846,6 +846,10 @@ header {
 li {
   list-style-type: none; }
 
+/* line 206, ../scss/main.scss */
+.bigtitle {
+  margin-left: 0 !important; }
+
 /* line 209, ../scss/main.scss */
 .galerie {
   width: 100% !important;
