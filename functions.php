@@ -4,7 +4,10 @@ add_action( 'after_setup_theme', 'generic_widget_setup' );
 add_action( 'init', 'create_post_type' );
 add_action('init','add_taxonomies');
 add_action('init','add_year');
+add_action('init','add_image_size');
 add_theme_support( 'post-thumbnails' ); 
+
+show_admin_bar( true ); 
 function generic_widget_init(){
 
 	register_sidebar( array(
@@ -36,7 +39,7 @@ if(! function_exists('add_taxonomies'))
     function add_taxonomies()
     {
         register_taxonomy('techniques','works',array(
-            "label"=>"Techniques utilisees",
+            "label"=>"Techniques utilisées",
             "hierarchical" => true,
             "query_var" => true,
             "rewrite" => true
@@ -46,13 +49,46 @@ if(! function_exists('add_taxonomies'))
         }
     }
 }
+
+if( ! function_exists('add_image_size'))
+{
+    function add_image_size(){
+        add_image_size('folio-work',640,480);
+    }
+}
+
+add_filter( 'image_size_names_choose', 'foliopict' );
+
+
+function foliopict( $sizes ) {
+    return array_merge( $sizes, array(
+        'folio-work' => __('Portfolioer'),
+    ) );
+}
+
+/*
+if(! function_exists('add_img'))
+{
+    function add_img()
+    {
+        register_taxonomy('imager','works',array(
+            "label"=>"Image d'aperçu",
+            "hierarchical" => true,
+            "query_var" => true,
+            "rewrite" => true
+            ));
+        {
+
+        }
+    }
+} */
 
 if(! function_exists('add_year'))
 {
     function add_year()
     {
         register_taxonomy('annees','works',array(
-            "label"=>"Annees du projet",
+            "label"=>"Années du projet",
             "hierarchical" => true,
             "query_var" => true,
             "rewrite" => true
@@ -63,16 +99,14 @@ if(! function_exists('add_year'))
     }
 }
 
-if(! function_exists('portfolio_setup'))
+
+
+if(! function_exists('generic_setup'))
 {
-    function portfolio_setup()
+    function generic_setup()
     {
-        add_theme_support('post-thumbnails');
         add_theme_support('automatic-feed-links');
         add_theme_support('post-formats',array('aside','gallery','link','image'));
-        set_post_thumbnail_size( 450, 144,true );
-        add_image_size('folio-work',640,480);
-        register_nav_menu('mon-menu',__('Menu'),'portfolio');
     }
 }
 if(! function_exists('portfolio_sidebars'))

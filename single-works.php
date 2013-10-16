@@ -1,14 +1,16 @@
 <?php get_header(); ?>
-    <section id="showcase">
-        <h2 class="title"></h2>
-        <div id="branding">
-            <?php get_terms( $taxonomies, $args ) ?>
+    <section id="showcase" itemscope itemtype="http://schema.org/Article">
+        <h1 class="bigtitle" itemprop="name"><?php the_title(); ?></h1>
+        <div id="tools">
+            <span class="icon-left-open" title="Projet précédent"></span>
+            <span class="icon-th" title="Tous les projets"></span>
+            <span class="icon-right-open"  title="Projet Suivant"></span>
         </div>
     </section>
             <section id="content" role="main" itemscope itemtype="http://schema.org/Article">
                 <?php if(have_posts()): ?>
                     <?php while(have_posts()): the_post(); ?>
-                            <h1 itemprop="name"><?php the_title(); ?></h1>
+                            
                             <section id="contactform">
                                 <h2>Aperçu du projet</h2>
                                 <div class="preview" itemprop="image">

@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/main.css">
         <script src="<?php bloginfo( 'template_directory' ); ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>

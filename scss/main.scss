@@ -96,6 +96,8 @@ textarea {
 @import "compass";
 @import "compass/layout/sticky-footer";
 @import "grid";
+@import "fontello";
+@import "fontello-codes";
 $columns: 12;
 $column-width: 60;
 $gutter-width: 20;
@@ -104,13 +106,18 @@ $total-width: 100%;
 
 @include sticky-footer(54px, "#main", "#main-footer", "footer");
 
-body, #main, #content, footer{
-    @include column(12);
-    font-family: Frutiger, ‘Frutiger Linotype’, Univers, Calibri, ‘Gill Sans’, ‘Gill Sans MT’, ‘Myriad Pro’, Myriad, ‘DejaVu Sans Condensed’, ‘Liberation Sans’, ‘Nimbus Sans L’, Tahoma, Geneva, ‘Helvetica Neue’, Helvetica, Arial, sans-serif ;
+body{
+    font-family: Lato;
     font-size: 16px;
     font-weight: normal;
     color: #367fa8;
 }
+
+#content, #footerwrap{
+    @include column(12);
+    background-color: #fff;
+}
+
 
 img, iframe, video{
   max-width: 100%;
@@ -140,20 +147,23 @@ a{
 }
 nav{
   padding-left: 0;
+  margin-right: 0;
   float: right;
-  text-align: right;
+  
   li{
-    float:left;
-    margin-right: 0.5em;
+    display: inline-block;
+    margin-left: 0.5em;
     text-transform: uppercase;
 
     a{
       display: block;
       width: 100%;
       padding: 1em 0.5em;
+      text-shadow: 1px 1px 1px #bbb;
       transition: color 1s;
       -webkit-transition: color 1s;
       -moz-transition: color 1s;
+      font-size: 1.4em;
       &:hover{
         color: red;
       }
@@ -168,8 +178,8 @@ header{
 
 #content{
   box-shadow: 1px 1px 10px #888888;
-  padding: 0.5em;
-  margin: 0;
+  padding: 0.5em 0.8em;
+  margin: 0 ;
   ul{
       @include column(12);
       margin-left: 0;
@@ -193,29 +203,31 @@ header{
 li{
   list-style-type: none;
 }
+.bigtitle{
+  
+}
 .galerie{
-  width: 100%;
-  margin: 0;
+  width: 100% !important;
+  margin: 0 !important;
   padding: 0;
 }
 .recent-works{
   @include column(4);
-  float: left;
-  margin: 1em 0.8em 2em;
+  margin: 1em 0.85em 2em;
   h3{
-    margin: 0.3em 0 0em 0;
+    margin: 0.3em 0 0 0.3em;
   }
   img{
-    border: 1px solid #ddd;
+
     padding: 0.3em;
-    &:hover{
-      background-color: #eee;
-    }
   }
   p{
-    margin: 0;
+    margin: 0.2em 0 0 0.3em;
     font-size: 90%;
   }
+    &:hover{
+      opacity: 0.5;
+    }
 }
 
 #me{
@@ -328,8 +340,9 @@ a{
   font-size: 1em;
 }
 #showcase{
+  @include column(12);
   h1{
-    width: 28%;
+    width: 38%;
     float: left;
     margin: 1em 0 1em 0.5em;
     text-transform: uppercase;
@@ -338,27 +351,60 @@ a{
 }
 
 #branding{
-  width: 70%;
+  width: 60%;
   float: right;
   margin: 0.5em 0;
   text-align: right;
+  color: #fff;
   li{
     display: inline-block;
-    margin-left: 1em;
     text-align: center;
     text-transform: uppercase;
+    .fontel{
+      display: block;
+      width: 50px;
+      height: 50px;
+      float: left;
+      background-image: url('../img/fontellobg.png');
+      background-repeat: no-repeat;
+      margin-top: 0.3em;
+      color: #fff;
+      font-size: 1.4em;
+      line-height: 1.9em;
+      transition: color 0.5s;
+      -webkit-transition: color 0.5s;
+      -moz-transition: color 0.5s;
+      &:hover{
+        color: #367fa8;
+        background: none;
+      }
+    }
     a{
       display: block;
-      padding: 1em;
+      float: right;
+      padding: 1em 1em 1em 0.1em;
       font-size: 1.2em;
-      transition: color 1s;
-      -webkit-transition: color 1s;
-      -moz-transition: color 1s;
+      transition: color 0.5s;
+      -webkit-transition: color 0.5s;
+      -moz-transition: color 0.5s;
       &:hover{
-        color: red;
+        color: #367fa8;
+        background: none;
       }
     }
   }
+}
+#tools{
+  width: 60%;
+  float: right;
+  margin: 0.5em 0;
+  text-align: right;
+  font-size: 2.5em;
+  color: #367fa8;
+}
+.icon-text{
+  float: right;
+  line-height: 3.5em;
 }
 .active{
       background-color: red;
@@ -366,9 +412,10 @@ a{
 }
 footer{
   box-shadow: 1px 1px 10px #888888;
-  margin: 2em 0 0 0.8em;
+  margin: 2em 0 0 0;
   padding: 0.5em 0.1em;
   p{
+    text-align: right;
     padding: 1em;
     margin: 0;
   }

@@ -15,7 +15,7 @@
                     foreach ($techs as $tech) {
             ;?>
                 <li class="techniques">
-                        <a href="<?php echo get_term_link($tech); ?>" title="<?php echo ($tech->name); ?>" data-hover="<?php echo ($tech->name); ?>"><SPAN><?php echo ($tech->name); ?></SPAN></a>
+                        <a href="<?php echo get_term_link($tech); ?>" title="<?php echo ($tech->name); ?>" data-hover="<?php echo ($tech->name); ?>"><span class="fontel icon-<?php echo ($tech->name); ?>"></span><span class="icon-text"><?php echo ($tech->name); ?></span></a>
                 </li>
              <?php       
                 }      
@@ -41,14 +41,7 @@
                         <?php endwhile; ?>
                     <?php endif; ?>
                 </ul>
-                <h1>Je parle</h1>
-                <ul>
-                    <li class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/img/html5.png" alt="Logo de HTML5" title="Logo de HTML5"></li>
-                    <li class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/img/css3.png" alt="Logo de CSS23" title="Logo de CSS3"></li>
-                    <li class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/img/php.png" alt="Logo de PHP" title="Logo de PHP"></li>
-                    <li class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/img/wp.png" alt="Logo de Wordress" title="Logo de Wordpress"></li>
-                    <li class="logo"><img src="<?php bloginfo( 'template_directory' ); ?>/img/drupal.png" alt="Logo de Drupal" title="Logo de Drupal"></li>
-                </ul>
+
                 <div id="main-footer"></div>
             </section><!-- END MAIN -->
         </div>
