@@ -6,8 +6,6 @@ add_action('init','add_taxonomies');
 add_action('init','add_year');
 add_action('init','add_image_size');
 add_theme_support( 'post-thumbnails' ); 
-
-show_admin_bar( true ); 
 function generic_widget_init(){
 
 	register_sidebar( array(
@@ -66,22 +64,6 @@ function foliopict( $sizes ) {
     ) );
 }
 
-/*
-if(! function_exists('add_img'))
-{
-    function add_img()
-    {
-        register_taxonomy('imager','works',array(
-            "label"=>"Image d'aperçu",
-            "hierarchical" => true,
-            "query_var" => true,
-            "rewrite" => true
-            ));
-        {
-
-        }
-    }
-} */
 
 if(! function_exists('add_year'))
 {
@@ -89,7 +71,7 @@ if(! function_exists('add_year'))
     {
         register_taxonomy('annees','works',array(
             "label"=>"Années du projet",
-            "hierarchical" => true,
+            "hierarchical" => false,
             "query_var" => true,
             "rewrite" => true
             ));

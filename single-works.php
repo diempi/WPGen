@@ -27,7 +27,7 @@
                                     <?php echo $url[0] ; ?>
                                 </article>
                                 <h2>Techniques utilisées</h2>
-                                <p><?php the_terms($post->ID,'techniques','Crée avec ',' - ',''); ?></p>
+                                <p><?php the_terms($post->ID,'techniques','',' - ',''); ?></p>
                                  <p><?php the_terms($post->ID,'annees','Années: ',' - ',' '); ?></p> 
                                 <p> <?php
                                         $url_container = get_post_custom();

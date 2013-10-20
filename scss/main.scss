@@ -165,7 +165,7 @@ nav{
       -moz-transition: color 1s;
       font-size: 1.4em;
       &:hover{
-        color: red;
+        color: #000;
       }
     }
   }
@@ -261,20 +261,36 @@ figcaption{
 }
 
 .moreinfos{
+  h2{
+    margin-bottom: 0;
+  }
   li{
     margin: 0.5em 0 !important;
   }
+  p{
+    margin-top: 0;
+  }
 }
-.social a{
-  display:block;
-  width:2.8em;
-  height:2.8em;
-  text-indent:60px;
-  line-height: 2.8em;
-  color:#367fa8;
-  background-image:url('../img/sprite.png');
-  background-position: 0 0;
+.social {
+  li{
+    margin-bottom: 0.5em;   
+  }
+
+  a{
+    display:block;
+    width:2.9em;
+    height:2.8em;
+    text-indent:60px;
+    line-height: 2.8em;
+    color:#367fa8;
+    background-image:url('../img/sprite.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+
 }
+
+
 #twitterdev:hover{background-position:0 100%;}
 #twitterdez:hover{background-position:0 100%;}
 #gplus{background-position:57.2% 0;}
