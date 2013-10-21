@@ -237,7 +237,7 @@ li{
     @include column(8);
 }
 figure{
-  @include column(4);
+  
   float: left;
 }
 figure img{
@@ -280,7 +280,7 @@ figcaption{
     display:block;
     width:2.9em;
     height:2.8em;
-    text-indent:60px;
+    text-indent:50px;
     line-height: 2.8em;
     color:#367fa8;
     background-image:url('../img/sprite.png');

@@ -889,10 +889,6 @@ li {
 
 /* line 239, ../scss/main.scss */
 figure {
-  display: inline;
-  float: left;
-  width: 31.25%;
-  margin: 0 1.04167%;
   float: left; }
 
 /* line 243, ../scss/main.scss */
@@ -939,7 +935,7 @@ figcaption {
   display: block;
   width: 2.9em;
   height: 2.8em;
-  text-indent: 60px;
+  text-indent: 50px;
   line-height: 2.8em;
   color: #367fa8;
   background-image: url("../img/sprite.png");
