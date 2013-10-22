@@ -1,6 +1,5 @@
 <?php get_header( ); ?>
     <section id="showcase">
-        <h1 class="bigtitle"><?php the_title(); ?></h1>
         <div id="branding">
             <?php 
                 $techs = get_terms( 'techniques');

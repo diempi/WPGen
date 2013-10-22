@@ -13,7 +13,8 @@
                             
                             <section id="contactform">
                                     <div class="preview" itemprop="image">
-                                    <?php the_content(); ?>
+                                    <img src="<?php the_field('image_de_larticle'); ?>" alt=""> 
+    
                                 </div>
                             </section>
                             <section class="moreinfos">
