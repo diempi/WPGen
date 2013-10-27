@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * HTML5 Boilerplate
  *
@@ -717,22 +718,22 @@ body {
   content: '\e801'; }
 
 /* '' */
-/* line 10, ../../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%; }
 
-/* line 12, ../../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #main {
   clear: both;
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin-bottom: -54px; }
-  /* line 18, ../../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+  /* line 18, ../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
   #main #main-footer {
     height: 54px; }
 
-/* line 20, ../../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 footer {
   clear: both;
   position: relative;
@@ -975,7 +976,6 @@ figcaption {
 
 /* line 308, ../scss/main.scss */
 .preview img {
-  box-shadow: 1px 1px 10px #888888;
   padding: 0.3em; }
 
 /* line 315, ../scss/main.scss */
