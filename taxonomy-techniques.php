@@ -2,7 +2,7 @@
 <?php
     $term = get_term_by("slug",get_query_var("term"),get_query_var("taxonomy"));
 ?>
-<div >
+<div>
     <h1> Projets crée avec : <?php echo($term->name); ?> </h1>
     <div class="container">
         <article <?php post_class(); ?>>
@@ -15,8 +15,7 @@
                     <hr>
                 <?php endwhile; ?>
             <?php endif; ?>
-        </article>
-        
+        </article>   
     </div>    
 </div>
 <div id="sidebar">

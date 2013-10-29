@@ -2,9 +2,9 @@
     <section id="showcase" itemscope itemtype="http://schema.org/Article">
         <h1 class="bigtitle" itemprop="name"><?php the_title(); ?></h1>
         <div id="tools">
-            <span class="icon-left-open" title="Projet précédent"></span>
+            <?php previous_post_link('%link','<span class="icon-left-open" title="Projet précédent"></span>'); ?>            
             <span class="icon-th" title="Tous les projets"></span>
-            <span class="icon-right-open"  title="Projet Suivant"></span>
+            <?php next_post_link('%link','<span class="icon-right-open"  title="Projet Suivant"></span>'); ?>
         </div>
     </section>
             <section id="content" role="main" itemscope itemtype="http://schema.org/Article">
