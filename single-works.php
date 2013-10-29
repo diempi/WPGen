@@ -3,7 +3,7 @@
         <h1 class="bigtitle" itemprop="name"><?php the_title(); ?></h1>
         <div id="tools">
             <?php previous_post_link('%link','<span class="icon-left-open" title="Projet précédent"></span>'); ?>            
-            <span class="icon-th" title="Tous les projets"></span>
+            <a href="mes-projets" title="Tous mes projets"><span class="icon-th" title="Tous les projets"></span></a>
             <?php next_post_link('%link','<span class="icon-right-open"  title="Projet Suivant"></span>'); ?>
         </div>
     </section>
