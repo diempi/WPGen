@@ -815,9 +815,10 @@ header {
 /* line 179, ../scss/main.scss */
 #content {
   box-shadow: 1px 1px 10px #888888;
-  padding: 0.5em 0.8em;
+  padding: 1.5em 0.8em;
+  width: 100%;
   margin: 0; }
-  /* line 183, ../scss/main.scss */
+  /* line 184, ../scss/main.scss */
   #content ul {
     display: inline;
     float: left;
@@ -827,15 +828,15 @@ header {
     text-align: left;
     padding-left: 0;
     margin-bottom: 2em; }
-  /* line 190, ../scss/main.scss */
+  /* line 191, ../scss/main.scss */
   #content h1 {
     clear: both;
     padding-top: 0.2em; }
-  /* line 194, ../scss/main.scss */
+  /* line 195, ../scss/main.scss */
   #content h2 {
     font-size: 1.4em; }
 
-/* line 198, ../scss/main.scss */
+/* line 199, ../scss/main.scss */
 .logo {
   display: inline;
   float: left;
@@ -843,44 +844,44 @@ header {
   margin: 0 1.04167%;
   float: left; }
 
-/* line 203, ../scss/main.scss */
+/* line 204, ../scss/main.scss */
 li {
   list-style-type: none; }
 
-/* line 206, ../scss/main.scss */
+/* line 207, ../scss/main.scss */
 .bigtitle {
   margin-left: 0; }
 
-/* line 209, ../scss/main.scss */
+/* line 210, ../scss/main.scss */
 .galerie {
   width: 100%;
   margin: 0;
   padding: 0; }
 
-/* line 214, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 .recent-works {
   display: inline;
   float: left;
   width: 31.25%;
   margin: 0 1.04167%; }
-  /* line 216, ../scss/main.scss */
+  /* line 217, ../scss/main.scss */
   .recent-works h3 {
     margin: 0.3em 0 0 0.3em; }
-  /* line 219, ../scss/main.scss */
+  /* line 220, ../scss/main.scss */
   .recent-works img {
     padding: 0.3em; }
-  /* line 223, ../scss/main.scss */
+  /* line 224, ../scss/main.scss */
   .recent-works p {
     margin: 0.2em 0 0 0.3em;
     font-size: 90%; }
-  /* line 227, ../scss/main.scss */
+  /* line 228, ../scss/main.scss */
   .recent-works:hover {
     opacity: 0.5; }
-  /* line 230, ../scss/main.scss */
+  /* line 231, ../scss/main.scss */
   .recent-works:firstchild {
     margin-left: 0; }
 
-/* line 235, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 #me {
   font-size: 140%;
   line-height: 1.5;
@@ -890,20 +891,20 @@ li {
   width: 64.58333%;
   margin: 0 1.04167%; }
 
-/* line 241, ../scss/main.scss */
+/* line 242, ../scss/main.scss */
 figure {
   float: left; }
 
-/* line 245, ../scss/main.scss */
+/* line 246, ../scss/main.scss */
 figure img {
   box-shadow: 2px 2px 6px #888888;
   padding: 0.3em; }
 
-/* line 250, ../scss/main.scss */
+/* line 251, ../scss/main.scss */
 figcaption {
   margin: 0.5em 0; }
 
-/* line 254, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 #contactform {
   display: inline;
   float: left;
@@ -912,7 +913,7 @@ figcaption {
   float: left;
   margin-left: 0; }
 
-/* line 260, ../scss/main.scss */
+/* line 261, ../scss/main.scss */
 .social, .moreinfos {
   display: inline;
   float: left;
@@ -920,23 +921,23 @@ figcaption {
   margin: 0 1.04167%;
   float: right; }
 
-/* line 266, ../scss/main.scss */
+/* line 267, ../scss/main.scss */
 .moreinfos h2 {
   margin-bottom: 0; }
-/* line 269, ../scss/main.scss */
+/* line 270, ../scss/main.scss */
 .moreinfos article {
   color: #555; }
-/* line 272, ../scss/main.scss */
+/* line 273, ../scss/main.scss */
 .moreinfos li {
   margin: 0.5em 0 !important; }
-/* line 275, ../scss/main.scss */
+/* line 276, ../scss/main.scss */
 .moreinfos p {
   margin-top: 0; }
 
-/* line 281, ../scss/main.scss */
+/* line 282, ../scss/main.scss */
 .social li {
   margin-bottom: 0.5em; }
-/* line 285, ../scss/main.scss */
+/* line 286, ../scss/main.scss */
 .social a {
   display: block;
   width: 2.9em;
@@ -948,58 +949,58 @@ figcaption {
   background-position: 0 0;
   background-repeat: no-repeat; }
 
-/* line 300, ../scss/main.scss */
+/* line 301, ../scss/main.scss */
 #twitterdev:hover {
   background-position: 0 100%; }
 
-/* line 301, ../scss/main.scss */
+/* line 302, ../scss/main.scss */
 #twitterdez:hover {
   background-position: 0 100%; }
 
-/* line 302, ../scss/main.scss */
+/* line 303, ../scss/main.scss */
 #gplus {
   background-position: 57.2% 0; }
 
-/* line 303, ../scss/main.scss */
+/* line 304, ../scss/main.scss */
 #gplus:hover {
   background-position: 57.2% 100%; }
 
-/* line 304, ../scss/main.scss */
+/* line 305, ../scss/main.scss */
 #lknd {
   background-position: 71.5% 0; }
 
-/* line 305, ../scss/main.scss */
+/* line 306, ../scss/main.scss */
 #lknd:hover {
   background-position: 71.5% 100%; }
 
-/* line 307, ../scss/main.scss */
+/* line 308, ../scss/main.scss */
 #main-footer {
   clear: both; }
 
-/* line 311, ../scss/main.scss */
+/* line 312, ../scss/main.scss */
 .preview img {
   padding: 0.3em; }
 
-/* line 318, ../scss/main.scss */
+/* line 319, ../scss/main.scss */
 form fieldset {
   box-shadow: 3px 3px 8px #888888; }
-/* line 321, ../scss/main.scss */
+/* line 322, ../scss/main.scss */
 form div {
   margin: 1em 0; }
-/* line 324, ../scss/main.scss */
+/* line 325, ../scss/main.scss */
 form label {
   display: block;
   width: 22%;
   float: left;
   text-transform: uppercase; }
-/* line 330, ../scss/main.scss */
+/* line 331, ../scss/main.scss */
 form input, form textarea {
   width: 76%; }
 
-/* line 335, ../scss/main.scss */
+/* line 336, ../scss/main.scss */
 #send {
   text-align: right; }
-  /* line 337, ../scss/main.scss */
+  /* line 338, ../scss/main.scss */
   #send input {
     width: auto;
     padding: 0.5em;
@@ -1007,30 +1008,30 @@ form input, form textarea {
     color: #fff;
     margin-right: 0.5em; }
 
-/* line 347, ../scss/main.scss */
+/* line 348, ../scss/main.scss */
 a:visited {
   color: #367fa8; }
 
-/* line 352, ../scss/main.scss */
+/* line 353, ../scss/main.scss */
 .visit {
   padding: 0.5em;
   background-color: #367fa8;
   color: #fff; }
-  /* line 356, ../scss/main.scss */
+  /* line 357, ../scss/main.scss */
   .visit:visited {
     color: #fff; }
 
-/* line 361, ../scss/main.scss */
+/* line 362, ../scss/main.scss */
 .title {
   font-size: 1em; }
 
-/* line 364, ../scss/main.scss */
+/* line 365, ../scss/main.scss */
 #showcase {
   display: inline;
   float: left;
   width: 97.91667%;
   margin: 0 1.04167%; }
-  /* line 366, ../scss/main.scss */
+  /* line 367, ../scss/main.scss */
   #showcase h1 {
     width: 38%;
     float: left;
@@ -1038,19 +1039,19 @@ a:visited {
     text-transform: uppercase;
     color: #000; }
 
-/* line 375, ../scss/main.scss */
+/* line 376, ../scss/main.scss */
 #branding {
   width: 60%;
   float: right;
   margin: 0.5em 0;
   text-align: right;
   color: #fff; }
-  /* line 381, ../scss/main.scss */
+  /* line 382, ../scss/main.scss */
   #branding li {
     display: inline-block;
     text-align: center;
     text-transform: uppercase; }
-    /* line 385, ../scss/main.scss */
+    /* line 386, ../scss/main.scss */
     #branding li .fontel {
       display: block;
       width: 50px;
@@ -1065,11 +1066,11 @@ a:visited {
       transition: color 0.5s;
       -webkit-transition: color 0.5s;
       -moz-transition: color 0.5s; }
-      /* line 399, ../scss/main.scss */
+      /* line 400, ../scss/main.scss */
       #branding li .fontel:hover {
         color: #367fa8;
         background: none; }
-    /* line 404, ../scss/main.scss */
+    /* line 405, ../scss/main.scss */
     #branding li a {
       display: block;
       float: right;
@@ -1078,12 +1079,12 @@ a:visited {
       transition: color 0.5s;
       -webkit-transition: color 0.5s;
       -moz-transition: color 0.5s; }
-      /* line 412, ../scss/main.scss */
+      /* line 413, ../scss/main.scss */
       #branding li a:hover {
         color: #367fa8;
         background: none; }
 
-/* line 419, ../scss/main.scss */
+/* line 420, ../scss/main.scss */
 #tools {
   width: 60%;
   float: right;
@@ -1092,22 +1093,22 @@ a:visited {
   font-size: 2.5em;
   color: #367fa8; }
 
-/* line 427, ../scss/main.scss */
+/* line 428, ../scss/main.scss */
 .icon-text {
   float: right;
   line-height: 3.5em; }
 
-/* line 431, ../scss/main.scss */
+/* line 432, ../scss/main.scss */
 .active {
   background-color: red;
   color: #fff; }
 
-/* line 435, ../scss/main.scss */
+/* line 436, ../scss/main.scss */
 footer {
   box-shadow: 1px 1px 10px #888888;
   margin: 2em 0 0 0;
   padding: 0.5em 0.1em; }
-  /* line 439, ../scss/main.scss */
+  /* line 440, ../scss/main.scss */
   footer p {
     text-align: right;
     padding: 1em;
@@ -1120,7 +1121,7 @@ footer {
 /*
  * Image replacement
  */
-/* line 457, ../scss/main.scss */
+/* line 458, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -1128,7 +1129,7 @@ footer {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 465, ../scss/main.scss */
+/* line 466, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -1138,7 +1139,7 @@ footer {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 476, ../scss/main.scss */
+/* line 477, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -1146,7 +1147,7 @@ footer {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 485, ../scss/main.scss */
+/* line 486, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -1161,7 +1162,7 @@ footer {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 502, ../scss/main.scss */
+/* line 503, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1174,7 +1175,7 @@ footer {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 515, ../scss/main.scss */
+/* line 516, ../scss/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -1189,7 +1190,7 @@ footer {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 532, ../scss/main.scss */
+/* line 533, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1197,7 +1198,7 @@ footer {
   display: table;
   /* 2 */ }
 
-/* line 537, ../scss/main.scss */
+/* line 538, ../scss/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -1205,7 +1206,7 @@ footer {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 546, ../scss/main.scss */
+/* line 547, ../scss/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -1223,7 +1224,7 @@ footer {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 573, ../scss/main.scss */
+  /* line 574, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -1231,59 +1232,59 @@ footer {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 581, ../scss/main.scss */
+  /* line 582, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 585, ../scss/main.scss */
+  /* line 586, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 589, ../scss/main.scss */
+  /* line 590, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 599, ../scss/main.scss */
+  /* line 600, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 604, ../scss/main.scss */
+  /* line 605, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 609, ../scss/main.scss */
+  /* line 610, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 614, ../scss/main.scss */
+  /* line 615, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 618, ../scss/main.scss */
+  /* line 619, ../scss/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 628, ../scss/main.scss */
+  /* line 629, ../scss/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 634, ../scss/main.scss */
+  /* line 635, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }

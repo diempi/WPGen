@@ -178,8 +178,9 @@ header{
 
 #content{
   box-shadow: 1px 1px 10px #888888;
-  padding: 0.5em 0.8em;
-  margin: 0 ;
+  padding: 1.5em 0.8em;
+  width: 100%;
+  margin: 0;
   ul{
       @include column(12);
       margin-left: 0;
