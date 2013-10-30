@@ -205,8 +205,13 @@ li{
   list-style-type: none;
 }
 .bigtitle{
-  margin-left: 0 ;
+    width: 38%;
+    float: left;
+    margin: 1em 0 1em 0.5em;
+    text-transform: uppercase;
+    color: #000;
 }
+
 .galerie{
   width: 100% ;
   margin: 0 ;
@@ -214,6 +219,7 @@ li{
 }
 .recent-works{
   @include column(4);
+  margin-bottom: 2.5em;
   h3{
     margin: 0.3em 0 0 0.3em;
   }
@@ -367,16 +373,9 @@ a{
 }
 #showcase{
   @include column(12);
-  h1{
-    width: 38%;
-    float: left;
-    margin: 1em 0 1em 0.5em;
-    text-transform: uppercase;
-    color: #000;
-  }
 }
 
-#branding{
+#branding, #techs{
   width: 60%;
   float: right;
   margin: 0.5em 0;

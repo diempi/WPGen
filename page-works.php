@@ -4,9 +4,9 @@
 */ 
 ?>
 <?php get_header( ); ?>
-    <section id="showcase">
-        <h1 class="bigtitle"><?php the_title(); ?></h1>
-        <div id="branding">
+<h1 class="bigtitle"><?php the_title(); ?></h1>
+
+        <div id="techs">
             <?php 
                 $techs = get_terms( 'techniques');
             ;?>
@@ -21,7 +21,7 @@
                 }      
             ; ?>
         </div>
-    </section>
+
             <section id="content">
                 <ul class="galerie">
                     <?php 
