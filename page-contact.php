@@ -13,17 +13,17 @@
                         <fieldset>
                             <div>
                                 <label for="name">Votre Nom</label>
-                                <input type="text" id="name" placeholder="Votre Nom">
+                                <input type="text" id="name" placeholder="Votre Nom" required>
                             </div>
 
                             <div>
                                 <label for="email">Votre Email</label>
-                                <input type="email" id="email" placeholder="@">
+                                <input type="email" id="email" placeholder="@" required>
                             </div>
 
                             <div>
                                 <label for="subject">Sujet</label>
-                                <input type="text" id="subject" placeholder="Titre de votre message">
+                                <input type="text" id="subject" placeholder="Titre de votre message" required>
                             </div>
 
                             <div>
